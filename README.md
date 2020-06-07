@@ -1,5 +1,7 @@
 # DataAnalytics4_Project
-Masters Coursework for Data Analytics 4 coursework.
+Masters program coursework for Data Analytics 4 module.
+
+Topic assigned: Yolo
 
 References used in the project:
 Webiste: https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/
