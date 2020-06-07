@@ -11,7 +11,7 @@ conda install neo4j
 conda instlall pytz
 conda create -n ce3da42 python=3.7
 conda install keras
--- The environment packages are in the EnvPackagesList.txt file for reference (output of command "conda env export > environment.yml")
+-- Refer environment.yml file for output of command: conda env export > environment.yml
 
 4) References used in the project:
 Webiste: https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/
