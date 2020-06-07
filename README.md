@@ -11,6 +11,7 @@ conda install jupyter,
 pip install neo4j,
 conda instlall pytz,
 conda install keras,
+conda install pydot,
 -- Refer environment.yml file for output of command: conda env export > environment.yml
 
 5) References used in the project:
