@@ -1,9 +1,9 @@
 # DataAnalytics4_Project
 1) Masters program coursework for Data Analytics 4 module.
 
-2) Topic assigned: Yolo
+2) Topic assigned: YOLO
 
-3) Use case is to present new images to pre-trained Yolo v3 model. Capture the inference (class names and confidence score) for all image, and then put into a Neo4j database. Using Neo4j Desktop v1.2.8.
+3) Use case is to present new images to pre-trained YOLO v3 model. Capture the inference (class names and confidence score) for all image, and then put into a Neo4j database. Using Neo4j Desktop v1.2.8.
 
 4) Anaconda environment setup notes. Below are the commands entered manually in the order specified.
 Create Python 3.7 environment (e.g. conda create -n ce2da41 python=3.7),
@@ -20,7 +20,7 @@ Github: On 05.06.2020, forked from https://github.com/jbrownlee/keras-yolo3 to h
 Yolo weights link: link: https://pjreddie.com/media/files/yolov3.weights
 
 6) Script: my_yolo3_one_file_to_detect_them_all_6.py
-Action: Uses pre-trained Yolo v3 model for inference on images. The inference data is stored in a Neo4j database in the form of (:Image)-[:HAS]->(:Object). User provides a folder which contains all the images to process. Note: some images cannot be processed due to resizing issues and will be skipped.
+Action: Uses pre-trained YOLO v3 model for inference on images. The inference data is stored in a Neo4j database in the form of (:Image)-[:HAS]->(:Object). User provides a folder which contains all the images to process. Note: some images cannot be processed due to resizing issues and will be skipped.
 
 7) Script: my_yolo3_model_stats_1.py
-Action: Uses the model.summary and plot_model functionality of Keras to output a textual and visual description of the Yolo v3 model.
+Action: Uses the model.summary and plot_model functionality of Keras to output a textual and visual description of the YOLO v3 model.
