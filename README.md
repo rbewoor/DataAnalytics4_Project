@@ -2,6 +2,7 @@
 1) Masters program coursework for Data Analytics 4 module.
 
 2) Topic assigned: Yolo
+2a) Use case is to present new images to pre-trained Yolo v3 model. Capture the inference (class names and confidence score) for all image, and then put into a Neo4j database. Using Neo4j Desktop v1.2.8.
 
 3) Anaconda environment setup notes. Below are the commands entered manually in the order specified.
 Create Python 3.7 environment (e.g. conda create -n ce3da42 python=3.7)
