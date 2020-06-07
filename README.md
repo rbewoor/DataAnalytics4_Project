@@ -3,7 +3,7 @@
 
 2) Topic assigned: Yolo
 
-3) Anaconda environment setup notes:
+3) Anaconda environment setup notes. Below are the commands entered manually in the order specified.
 Create Python 3.7 environment (e.g. conda create -n ce3da42 python=3.7)
 conda install jupyter
 conda install pandas
